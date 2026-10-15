@@ -401,6 +401,18 @@ RESPONSIVENESS
 
 */
 
+
+
+@media (max-width: 640px) {
+    .highlight {
+        padding: 0;
+    }
+
+    .highlight__para {
+        padding: 6px;
+    }
+}
+
 @media (max-width: 480px) {
   .highlight__img {
     width: 60px;
