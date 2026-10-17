@@ -445,4 +445,20 @@ RESPONSIVENESS
   .book__title {
     font-size: 16px;
   }
+
+  .book__img {
+    padding: 25px;
+  }
+
+  h1 {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .footer__logo--img  {
+    padding: 20px;
+  }
 }
