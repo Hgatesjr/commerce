@@ -64,9 +64,6 @@ li {
   list-style-type: none;
 }
 
-.nav__links {
-}
-
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
@@ -365,8 +362,6 @@ highlights
   padding: 10px;
 }
 
-.footer-logo {
-}
 
 /*
 footer
