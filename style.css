@@ -409,6 +409,25 @@ RESPONSIVENESS
 }
 
 @media (max-width: 480px) {
+  
+  * {
+    box-sizing: content-box;
+  }
+
+  .nav__link {
+    display: none;
+  }
+
+  .btn__menu {
+    margin-right: 16px;
+  }
+
+  .books {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .highlight__img {
     width: 60px;
     height: 60px;
@@ -434,7 +453,10 @@ RESPONSIVENESS
   }
 
   .book__img {
-    padding: 12px;
+    padding: 2px;
+    height: 115px;
+    max-height: 250px;
+    width: 85px;
   }
 
   .book__title {
