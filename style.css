@@ -91,6 +91,7 @@ li {
   text-align: center;
   border: none;
   color: #7342d6;
+  margin-right: 24px;
 }
 
 .menu__backdrop {
@@ -406,6 +407,10 @@ RESPONSIVENESS
     .highlight__para {
         padding: 6px;
     }
+
+    .btn__menu {
+    margin-right: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -423,8 +428,8 @@ RESPONSIVENESS
   }
 
   .books {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: center;
   }
 
